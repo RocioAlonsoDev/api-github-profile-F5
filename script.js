@@ -28,4 +28,4 @@ const request = async() => {
         }
 }
 
-searchInput.addEventListener('change',request)
+searchInput.addEventListener('input',request)
